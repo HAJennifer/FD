@@ -29,7 +29,7 @@ display: none;
   background-color: #d1e0e0;
   width: 100%;
   padding: 20px;
-  position: relative;
+  position: absolute;
   text-align: center;
 }
 a:-webkit-any-link {
