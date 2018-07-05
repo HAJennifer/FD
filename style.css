@@ -1,10 +1,10 @@
 body{
 
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   margin: 0px;
   padding: 20px;
-  height: auto;
+
 }
 header {
   align-content: stretch;
@@ -31,6 +31,7 @@ display: none;
   padding: 20px;
   position: relative;
   text-align: center;
+  float: middle;
 }
 a:-webkit-any-link {
   text-decoration: none;
@@ -48,14 +49,14 @@ a:-webkit-any-link {
 }
 
 .nav-link {
-  padding: 20px;
+  padding: 60px;
 }
 header div h1 {
-	text-align: center;
-	font-size: 100px;
-	font-family:"Asterism";
+  text-align: center;
+  font-size: 100px;
+  font-family:"Asterism";
   margin-top: 0;
-	}
+  }
 
 h2{
   text-align: center;
@@ -77,7 +78,13 @@ h2{
   display: block;
   margin: 0 auto;
 }
-
+#gyik p{
+  width:300px;
+  float: middle;
+  display:inline-block;
+  position:relative;
+  
+}
 
 @media screen and (max-width: 967px) {
   .contact img{
@@ -243,25 +250,26 @@ h1 {
 #program p{
   text-align: center;
 }
+section{
+  padding-top: 100px;
+}
 footer {
 
-	background-image:url(akvarell1.png);
-	background-position: center bottom, bottom center;
-	background-size: 450px;
-	background-repeat: no-repeat;
+  background-image:url(akvarell1.png);
+  background-position: center bottom, bottom center;
+  background-size: 450px;
+  background-repeat: no-repeat;
   width: 100%;
 }
 footer div h1 {
-	text-align: center;
-	font-size: 50px;
-	font-family:"Asterism";
+  text-align: center;
+  font-size: 50px;
+  font-family:"Asterism";
 
 }
 footer div h2 {
-	text-align: center;
-	font-size: 50px;
-	font-family:"Asterism";
+  text-align: center;
+  font-size: 50px;
+  font-family:"Asterism";
 
 }
-
-
