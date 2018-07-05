@@ -5,6 +5,7 @@ body{
   margin: 0px;
   padding: 20px;
   height: auto;
+align-content: stretch;
 }
 header {
   align-content: stretch;
