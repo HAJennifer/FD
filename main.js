@@ -9,9 +9,7 @@ $(document).ready(function() {
     if (scrollTopVal > originalHeight + 130) {
       nav.css("position", "fixed");
       nav.css("top", "0");
-    } else {
-      nav.css("position", "relative");
-    }
+    } 
   })
   // once nav gets to top of page
   // change position to fixed css
@@ -20,8 +18,3 @@ $(document).ready(function() {
 
 });
 
-//$(document).ready(function(){
-    //$('#nav-menu').click(function(){
-       // $('ul.nav-list').addClass('open').slideToggle('50');
-   // });
-//});
